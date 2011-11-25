@@ -71,10 +71,12 @@ nnoremap ; :
 vmap Q gq
 nmap Q gqap
 
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
+"" This is clearly masochistic as arrow keys have to be used in insert mode
+""   anyway
+" map <up> <nop>
+" map <down> <nop>
+" map <left> <nop>
+" map <right> <nop>
 
 nnoremap j gj
 nnoremap k gk
